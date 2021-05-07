@@ -10,7 +10,7 @@ const { response } = require("express");
 const server = http.createServer(app)
 
 
-mongoose.connect('mongodb+srv://<username>:<password>@cluster0.2mhfj.mongodb.net/test', {
+mongoose.connect('mongodb+srv://team:chat2021@cluster0.2mhfj.mongodb.net/test', {
     useCreateIndex: true,
     useNewUrlParser: true,
     useUnifiedTopology: true
